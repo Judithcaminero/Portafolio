@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9ebeb;
+      color: #2f2e2e;
+    }
+
+    header {
+      background: #ba4949ed;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid white;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #dd6363d5;
+      margin-bottom: 20px;
+    }
+
+    .skills, .projects, .experience {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 280px;
+      padding: 15px;
+      background: rgba(230, 162, 162, 0.304);
+      border: 1px solid #d8d8d8;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+      margin: 0 0 10px 0;
+    }
+
+    .card p {
+      margin: 0 0 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      background: #333;
+      color: white;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #eb8585c4;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background: #ea6161ed;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Portafolio Personal</h1>
+    <p>Estudiante de ASIR</p>
+    <nav>
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>
+        Me considero una persona proactiva,
+        con motivación por el aprendizaje
+        continuo y al trabajo en equipo.
+        Mi objetivo es aplicar mis habilidades
+        académicas en un entorno profesional,
+        aportando compromiso y dedicación.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Desarrollo Web</h3>
+        <p>HTML, CSS, JavaScript, XML</p>
+      </div>
+      <div class="card">
+        <h3>Administración de Redes</h3>
+        <p>Configuración de redes, DHCP, DNS, VLANs, VPN, cortafuegos, AAA, monitorización</p>
+      </div>
+      <div class="card">
+        <h3>Virtualización</h3>
+        <p>Virtualbox (kali linux, Ubuntu server, Windows, Windows server)</p>
+      </div>
+      <div class="card">
+        <h3>Programación y gestión de base de datos</h3>
+        <p>MySQL, PL/SQL, MaríaDB</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos Destacados</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>TFG (Trabajo de Fin de Grado)</h3>
+        <p>Configuración y monitorización en una red empresarial segura mediante VLANs, VPN y cortafuegos.</p>
+        <a class="btn" href="https://github.com/Judithcaminero" target="_blank">Ver en GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Fuerza y Vida</h3>
+        <p>Creación de una empresa que ofrece servicios de personal training y fisioterapeuta mediante online y una aplicación con ejercicios y dietas adaptados a ti.</p>
+        <a class="btn" href="https://github.com/Judithcaminero" target="_blank">Ver en GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Xabor a mar</h3>
+        <p>Creación de una web básica sobre un restaurante.</p>
+        <a class="btn" href="https://github.com/Judithcaminero" target="_blank">Ver en GitHub</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>¿Te interesa colaborar o tienes alguna consulta? Escríbeme:</p>
+    <p>Email: <a href="mailto:judith.camineromanzanas@gmail.com">judith.camineromanzanas@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/judith-caminero-manzanas-277481236/" target="_blank">Linkedin/Judith caminero manzanas</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
